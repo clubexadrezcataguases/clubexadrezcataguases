@@ -74,10 +74,10 @@ footer {
             display: flex;
             align-items: center;
             padding: 10px 20px;
-            justify-content: space-between;
+            justify-content: center;
         }
 .footer-logo {
-            max-height: 40px; /* Define a altura máxima da imagem */
+            max-height: 30px; /* Define a altura máxima da imagem */
             max-width: auto; /* Define a largura máxima da imagem */
             height: auto; /* Mantém a proporção da imagem */
             margin-right: 10px; /* Espaço entre a logo e o link */
