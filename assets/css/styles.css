@@ -1,0 +1,68 @@
+/*
+@name         CXC - Clube de Xadrez de Cataguases
+@namespace    clubexadrezcataguases.github.io
+@author       HUMANOREAL (José Guilherme Cerqueira)
+@description  NULL
+@version      0.1
+@license      THE UNLICENSE
+
+CSS padrão (*) do site
+
+    Clube de Xadrez de Cataguases
+https://clubexadrezcataguases.github.io/
+                 _____                 
+                |     |                
+                |     |                
+                |_____|                
+                  | |                  
+                  | |                  
+                  | |                  
+                  | |                  
+                 /   \                 
+                /_____\
+
+*/
+
+/*
+API do Google Fonts 
+https://developers.google.com/fonts/docs/css2?hl=pt-br
+*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+            font-family: "Source Code Pro", monospace;
+            font-optical-sizing: auto;
+            font-weight: 200;
+            font-style: normal;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+header {
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            padding: 20px 0;
+            text-align: center;
+        }
+main {
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            background-color: #fff;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+footer {
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+        }
