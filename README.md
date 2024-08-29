@@ -1,1 +1,1 @@
-# Ainda sendo feito
+[![Deploy static content to Pages](https://github.com/clubexadrezcataguases/clubexadrezcataguases.github.io/actions/workflows/static.yml/badge.svg)](https://github.com/clubexadrezcataguases/clubexadrezcataguases.github.io/actions/workflows/static.yml)
