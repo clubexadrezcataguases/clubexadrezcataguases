@@ -71,8 +71,10 @@ footer {
             justify-content: space-between;
         }
 .footer-logo {
-            height: 40px; 
-            margin-right: 10px;
+            max-height: 40px; /* Define a altura máxima da imagem */
+            max-width: auto; /* Define a largura máxima da imagem */
+            height: auto; /* Mantém a proporção da imagem */
+            margin-right: 10px; /* Espaço entre a logo e o link */
 }
 
 .footer-link {
