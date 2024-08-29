@@ -30,7 +30,13 @@ https://developers.google.com/fonts/docs/css2?hl=pt-br
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
-            font-family: "Source Code Pro", monospace;
+            font-family: 'Source Code Pro',  /* fonte principal importada do Google Fonts */
+               'Courier New',         /* comum em Windows */
+               'Courier',            /* alternativa para Windows e outros sistemas */
+               'DejaVu Sans Mono',   /* alternativa presente em muitas distribuições Linux */
+               'Menlo',              /* fonte padrão em macOS */
+               'Liberation Mono',   /* alternativa presente em muitas distribuições Linux */
+               monospace;            /* fonte genérica monoespaçada, usada se as fontes anteriores não estiverem disponíveis */
             font-optical-sizing: auto;
             font-weight: 400;
             font-style: normal;
