@@ -29,6 +29,9 @@ https://clubexadrezcataguases.github.io/
     <style>
         body {
             background-image: url('https://images.unsplash.com/photo-1601476322480-124ac4f6e539?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover; /* Faz a imagem cobrir toda a tela */
+            background-position: center; /* Centraliza a imagem */
+            background-repeat: no-repeat; /* Não repete a imagem */
             color: white;
             display: flex;
             flex-direction: column;
@@ -44,7 +47,7 @@ https://clubexadrezcataguases.github.io/
             -webkit-font-smoothing: antialiased;
         }
         h1 {
-            font-size: 4rem; /* Ajuste do tamanho da fonte para telas grandes */
+            font-size: 3rem; /* Ajuste do tamanho da fonte para telas grandes */
             margin: 0;
             font-weight: bold;
         }
@@ -57,7 +60,7 @@ https://clubexadrezcataguases.github.io/
             color: black;
             border: 0;
             border-radius: 4px;
-            padding: 0.8rem 2.4rem;
+            padding: 0.6rem 1.8rem; /* Ajuste do padding */
             cursor: pointer;
             display: flex;
             align-items: center;
@@ -83,7 +86,7 @@ https://clubexadrezcataguases.github.io/
         }
         span.error-code {
             border-left: 2px solid #e50914;
-            font-size: 2rem; /* Ajuste do tamanho da fonte para telas grandes */
+            font-size: 1.5rem; /* Ajuste do tamanho da fonte para telas grandes */
             font-weight: 100;
             letter-spacing: .1em;
             line-height: 2.2em;
@@ -94,17 +97,17 @@ https://clubexadrezcataguases.github.io/
         }
         @media (max-width: 768px) {
             h1 {
-                font-size: 2.5rem; /* Ajuste do tamanho da fonte para telas pequenas */
+                font-size: 2rem; /* Ajuste do tamanho da fonte para telas pequenas */
             }
             p {
                 font-size: 1rem; /* Ajuste do tamanho da fonte para telas pequenas */
             }
             .button-home {
-                padding: 0.6rem 1.8rem;
+                padding: 0.5rem 1.5rem; /* Ajuste do padding */
                 font-size: 1rem; /* Ajuste do tamanho da fonte para telas pequenas */
             }
             span.error-code {
-                font-size: 1.5rem; /* Ajuste do tamanho da fonte para telas pequenas */
+                font-size: 1.2rem; /* Ajuste do tamanho da fonte para telas pequenas */
             }
         }
     </style>
@@ -112,7 +115,7 @@ https://clubexadrezcataguases.github.io/
 <body>
     <h1>Seu rei está em cheque-mate?</h1>
     <p>Assim como um movimento inválido no xadrez não é permitido, a página que você procura não existe.</p>
-    <a href="/" tabindex="-1" class="button-home">Voltar para a Página Inicial</a>
+    <a href="/" tabindex="-1" class="button-home">Página Inicial</a>
     <span class="error-code">Código de erro <strong>404-KX</strong></span>
 </body>
 </html>
