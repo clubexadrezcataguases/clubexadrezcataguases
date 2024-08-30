@@ -37,6 +37,11 @@ https://clubexadrezcataguases.github.io/
             height: 100vh;
             margin: 0;
             text-align: center;
+            user-select: none; /* desabilita a seleção de texto */
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -webkit-font-smoothing: antialiased; /* remove o antiserilhado da fonte*/
         }
         h1 {
             font-size: 6rem;
@@ -47,22 +52,58 @@ https://clubexadrezcataguases.github.io/
             font-size: 1.5rem;
             margin: 0.5rem 0;
         }
-        a {
-            text-decoration: none;
-            color: #007bff;
-            font-size: 1.2rem;
-            margin-top: 20px;
-            transition: color 0.3s;
-        }
-        a:hover {
-            color: #0056b3;
-        }
+        /* Estilo base para o botão */
+.button-home {
+    background-color: white; /* Cor de fundo branca */
+    color: black; /* Cor do texto preta */
+    border: 0; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    padding: 0.8rem 2.4rem; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+    display: flex; /* Usar flexbox para centralizar o conteúdo */
+    align-items: center; /* Alinhamento vertical */
+    justify-content: center; /* Alinhamento horizontal */
+    text-transform: none; /* Não transformar o texto em maiúsculas */
+    font: inherit; /* Herda a fonte do pai */
+    margin: 0; /* Sem margem */
+    white-space: nowrap; /* Impede a quebra de linha */
+    will-change: background-color, color; /* Indica quais propriedades irão mudar */
+    user-select: none; /* Impede a seleção do texto */
+    transition: background-color 0.3s, color 0.3s; /* Transição suave para alterações */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.button-home:hover {
+    background-color: rgba(255, 255, 255, 0.75); /* Fundo branco semi-transparente */
+    color: black; /* Cor do texto preta */
+}
+
+/* Efeito ao clicar no botão */
+.button-home:active {
+    background-color: rgba(255, 255, 255, 0.5); /* Fundo branco mais transparente */
+    color: black; /* Cor do texto preta */
+}
+
+/* Estilo para links que são usados como botões */
+a.button-home {
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+span.error-code {
+    border-left: 2px solid #e50914;
+    font-size: 2.4em;
+    font-weight: 100;
+    letter-spacing: .1em;
+    line-height: 2.2em;
+    padding-left: 2vw; /* Aumenta o espaço à esquerda */
+    padding-right: 1vw;
+}
     </style>
 </head>
 <body>
-    <h1>404</h1>
-    <p>Página Não Encontrada</p>
-    <p>Desculpe, não conseguimos encontrar a página que você está procurando.</p>
-    <a href="/">Voltar para a Página Inicial</a>
+    <h1>Seu rei está em cheque-mate?</h1>
+    <p>Assim como um movimento inválido no xadrez não é permitido, a página que você procura não existe.</p>
+    <a href="/" tabindex="-1" class="button-home">Voltar para a Página Inicial</a>
+    <span class="error-code">Código de erro <strong>404-KX</strong></span>
+    
 </body>
 </html>
