@@ -28,72 +28,113 @@ https://clubexadrezcataguases.github.io/
     <title>Página Não Encontrada - 404</title>
     <style>
         body {
-            background-image: url('https://images.unsplash.com/photo-1601476322480-124ac4f6e539?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-            background-size: cover; /* Garante que a imagem cubra toda a tela */
-            color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-            user-select: none; /* desabilita a seleção de texto */
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            -webkit-font-smoothing: antialiased; /* remove o antiserilhado da fonte */
-        }
-        h1 {
-            font-size: 4rem; /* Reduzido o tamanho da fonte */
-            margin: 0 0 1rem 0; /* Espaçamento em baixo */
-            font-weight: bold;
-        }
-        p {
-            font-size: 1.2rem; /* Reduzido o tamanho da fonte */
-            margin: 0 0 1.5rem 0; /* Espaçamento em baixo */
-        }
-        .button-home {
-            background-color: white; /* Cor de fundo branca */
-            color: black; /* Cor do texto preta */
-            border: 0; /* Sem borda */
-            border-radius: 4px; /* Bordas arredondadas */
-            padding: 0.8rem 2.4rem; /* Espaçamento interno */
-            cursor: pointer; /* Cursor de mão ao passar o mouse */
-            display: flex; /* Usar flexbox para centralizar o conteúdo */
-            align-items: center; /* Alinhamento vertical */
-            justify-content: center; /* Alinhamento horizontal */
-            text-transform: none; /* Não transformar o texto em maiúsculas */
-            font: inherit; /* Herda a fonte do pai */
-            margin: 0; /* Sem margem */
-            white-space: nowrap; /* Impede a quebra de linha */
-            will-change: background-color, color; /* Indica quais propriedades irão mudar */
-            user-select: none; /* Impede a seleção do texto */
-            transition: background-color 0.3s, color 0.3s; /* Transição suave para alterações */
-        }
-        .button-home:hover {
-            background-color: rgba(255, 255, 255, 0.75); /* Fundo branco semi-transparente */
-            color: black; /* Cor do texto preta */
-        }
-        .button-home:active {
-            background-color: rgba(255, 255, 255, 0.5); /* Fundo branco mais transparente */
-            color: black; /* Cor do texto preta */
-        }
-        a.button-home {
-            text-decoration: none; /* Remove o sublinhado do link */
-        }
-        span.error-code {
-            border-left: 2px solid #bf616a;
-            font-size: 1.8rem; /* Reduzido o tamanho da fonte */
-            font-weight: 100;
-            font-family: Arial, sans-serif;
-            letter-spacing: .1em;
-            line-height: 2em;
-            padding-left: 1.5vw; /* Ajustado o espaço à esquerda */
-            padding-right: 1vw;
-            display: inline-block; /* Garante que o padding funcione corretamente */
-            margin-top: 1rem; /* Espaçamento em cima */
-        }
+    background-image: url('https://images.unsplash.com/photo-1601476322480-124ac4f6e539?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+    font-size: 6rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.button-home {
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 4px;
+    padding: 0.8rem 2.4rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+    white-space: nowrap;
+    will-change: background-color, color;
+    user-select: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button-home:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+}
+
+.button-home:active {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+a.button-home {
+    text-decoration: none;
+}
+
+span.error-code {
+    border-left: 2px solid #e50914;
+    font-size: 2.4em;
+    font-weight: 100;
+    letter-spacing: .1em;
+    line-height: 2.2em;
+    padding-left: 2vw;
+    padding-right: 1vw;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .button-home {
+        padding: 0.6rem 1.6rem;
+    }
+
+    span.error-code {
+        font-size: 1.8em;
+        padding-left: 1.5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .button-home {
+        padding: 0.5rem 1.2rem;
+    }
+
+    span.error-code {
+        font-size: 1.5em;
+        padding-left: 1vw;
+    }
+}
     </style>
 </head>
 <body>
