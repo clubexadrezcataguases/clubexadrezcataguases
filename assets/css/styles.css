@@ -55,13 +55,61 @@ body {
             flex-direction: column;
             align-items: center;
         }
-header {
-            background-color: #333;
-            color: #fff;
-            width: 100%;
-            padding: 20px 0;
-            text-align: center;
-        }
+.site-header {
+  background-color: #2E3440; 
+  color: #D8DEE9;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px; 
+  margin-right: 10px;
+}
+
+.site-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #D8DEE9;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 5px;
+  border: 1px solid #4C566A; 
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  background-color: #3B4252;
+  color: #D8DEE9;
+}
+
+.search-button {
+  padding: 5px 10px;
+  border: 1px solid #4C566A; 
+  border-radius: 0 4px 4px 0;
+  background-color: #4C566A;
+  color: #D8DEE9;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-button:hover {
+  background-color: #5E81AC;
+}
+
 main {
             padding: 20px;
             width: 80%;
