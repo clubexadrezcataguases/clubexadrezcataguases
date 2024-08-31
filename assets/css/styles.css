@@ -30,6 +30,13 @@ https://developers.google.com/fonts/docs/css2?hl=pt-br
 /* https://github.com/adobe-fonts/source-code-pro */
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
+*{
+            user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -webkit-font-smoothing: antialiased;
+    }
 body {
             font-family: 'Source Code Pro',  /* fonte principal importada do Google Fonts */
                'Courier New',         /* comum em Windows */
