@@ -104,7 +104,6 @@ footer {
 /* scrollbar para o body (site padrão) */
 body {
     scrollbar-width: auto; /* para Firefox: largura padrão */
-    scrollbar-color: #A3BE8C #3B4252; /* thumb-color e track-color para firefox */
 }
 
 body::-webkit-scrollbar {
