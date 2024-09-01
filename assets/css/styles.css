@@ -119,36 +119,27 @@ main {
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-footer {
-            background-color: #333;
-            color: #fff;
-            width: 100%;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            display: flex;
-            align-items: center;
-            padding: 10px 20px;
-            justify-content: center;
-        }
-.footer-logo {
-            max-height: 30px; /* Define a altura máxima da imagem */
-            max-width: auto; /* Define a largura máxima da imagem */
-            height: auto; /* Mantém a proporção da imagem */
-            margin-right: 10px; /* Espaço entre a logo e o link */
+.footer {
+  display: flex;
+  align-items: center; /* Alinha a imagem e o texto verticalmente */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  padding: 10px;
+  background-color: #f8f8f8; /* Cor de fundo opcional */
 }
 
 .footer-link {
-            color: #fff; 
-            text-decoration: none; 
-            font-size: 16px;
+  text-decoration: none;
+  color: #333; /* Cor do texto */
+  font-size: 16px; /* Tamanho do texto */
+  display: flex;
+  align-items: center; /* Alinha a imagem e o texto verticalmente */
 }
 
-.footer-link:hover {
-            text-decoration: underline; 
+.footer-logo {
+  margin-right: 8px; /* Espaçamento entre a imagem e o texto */
+  height: 24px; /* Altura da imagem */
+  width: auto; /* Mantém a proporção da imagem */
 }
-
 /* scrollbar para o body (site padrão) */
 body {
     scrollbar-width: auto; /* para Firefox: largura padrão */
