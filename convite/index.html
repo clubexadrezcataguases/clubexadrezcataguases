@@ -14,7 +14,12 @@ https://clubexadrezcataguases.github.io/
 
 -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="pt-BR"
+  lang="pt-BR"
+  xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"
+  data-color-mode="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,18 +54,20 @@ https://clubexadrezcataguases.github.io/
             text-align: center;
         }
         .container {
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(255, 255, 255, 0.5);
+            border: 2px solid #007bff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 500px;
-            backdrop-filter: blur(8px);
+            backdrop-filter: blur(10px);
         }
         h1 {
             color: #3c763d;
+            font-size: 2rem; /* Tamanho do título */
         }
         p {
-            font-size: 18px;
+            font-size: 1rem; /* Tamanho do texto */
             line-height: 1.6;
         }
         .invite-button {
@@ -68,7 +75,7 @@ https://clubexadrezcataguases.github.io/
             color: white;
             border: none;
             padding: 10px 20px;
-            font-size: 16px;
+            font-size: 1rem; /* Tamanho do texto do botão */
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
@@ -78,11 +85,45 @@ https://clubexadrezcataguases.github.io/
         .invite-button:hover {
             background-color: #6b9a3b;
         }
+
+        /* Media Queries para dispositivos móveis */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+                border-width: 1px;
+            }
+            h1 {
+                font-size: 1.5rem; /* Reduz o tamanho do título em dispositivos móveis */
+            }
+            p {
+                font-size: 0.875rem; /* Reduz o tamanho do texto em dispositivos móveis */
+            }
+            .invite-button {
+                padding: 8px 16px; /* Ajusta o tamanho do botão em dispositivos móveis */
+                font-size: 0.875rem; /* Reduz o tamanho do texto do botão */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.25rem; /* Tamanho ainda menor para telas muito pequenas */
+            }
+            p {
+                font-size: 0.75rem; /* Tamanho ainda menor para telas muito pequenas */
+            }
+            .invite-button {
+                padding: 6px 12px; /* Ajusta o tamanho do botão em telas pequenas */
+                font-size: 0.75rem; /* Reduz o tamanho do texto do botão */
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Convite para o Clube de Xadrez de Cataguases</h1>
+        <h1>Clube de Xadrez de Cataguases</h1>
         <p>Olá! Gostaríamos de convidá-lo para se juntar ao nosso clube de xadrez no <span style='color:#81b64c;'>Chess.com</span>. Venha fazer parte do nosso grupo e participe de partidas emocionantes, torneios e discussões estratégicas com outros entusiastas de xadrez!</p>
         <a href="https://www.chess.com/club/cxc-clube-de-xadrez-de-cataguases/join" class="invite-button">Junte-se ao CXC</a>
     </div>
