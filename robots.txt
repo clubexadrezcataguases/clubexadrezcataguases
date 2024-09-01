@@ -1,0 +1,5 @@
+#  Robots.txt feito por Gui
+
+User-agent: *
+Disallow:
+Sitemap: https://clubexadrezcataguases.github.io/sitemap.xml
