@@ -54,69 +54,63 @@ https://clubexadrezcataguases.github.io/
             text-align: center;
         }
         .container {
-            background-color: rgba(255, 255, 255, 0.5);
-            border: 2px solid #007bff;
+            background-color: rgba(129, 182, 76, 0.5);
+            border: 2px solid #ffffff;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             max-width: 500px;
+            width: 90%;
             backdrop-filter: blur(10px);
         }
         h1 {
             color: #3c763d;
-            font-size: 2rem; /* Tamanho do título */
+            font-size: 2rem;
         }
         p {
-            font-size: 1rem; /* Tamanho do texto */
+            font-size: 1rem;
             line-height: 1.6;
         }
         .invite-button {
             background-color: #81b64c;
             color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 1rem; /* Tamanho do texto do botão */
-            border-radius: 5px;
+            border: 0;
+            border-radius: 4px;
+            padding: 0.6rem 1.8rem;
             cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: none;
+            font: inherit;
+            margin: 1rem 0;
+            white-space: nowrap;
+            will-change: background-color, color;
+            user-select: none;
+            transition: background-color 0.3s, color 0.3s;
             text-decoration: none;
-            display: inline-block;
-            margin-top: 20px;
         }
         .invite-button:hover {
-            background-color: #6b9a3b;
+            background-color: rgba(129, 182, 76, 0.75);
+            color: white;
         }
-
-        /* Media Queries para dispositivos móveis */
-        @media (max-width: 768px) {
+        .invite-button:active {
+            background-color: rgba(129, 182, 76, 0.5);
+            color: white;
+        }
+        @media (max-width: 600px) {
             .container {
                 padding: 15px;
-                border-width: 1px;
+                border-radius: 8px;
             }
             h1 {
-                font-size: 1.5rem; /* Reduz o tamanho do título em dispositivos móveis */
+                font-size: 1.5rem;
             }
             p {
-                font-size: 0.875rem; /* Reduz o tamanho do texto em dispositivos móveis */
+                font-size: 0.9rem;
             }
             .invite-button {
-                padding: 8px 16px; /* Ajusta o tamanho do botão em dispositivos móveis */
-                font-size: 0.875rem; /* Reduz o tamanho do texto do botão */
-            }
-        }
-
-        @media (max-width: 480px) {
-            .container {
-                padding: 10px;
-            }
-            h1 {
-                font-size: 1.25rem; /* Tamanho ainda menor para telas muito pequenas */
-            }
-            p {
-                font-size: 0.75rem; /* Tamanho ainda menor para telas muito pequenas */
-            }
-            .invite-button {
-                padding: 6px 12px; /* Ajusta o tamanho do botão em telas pequenas */
-                font-size: 0.75rem; /* Reduz o tamanho do texto do botão */
+                padding: 0.5rem 1.5rem;
             }
         }
     </style>
