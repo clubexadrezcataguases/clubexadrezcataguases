@@ -1,15 +1,3 @@
-# Título do site
-title: "CXC - Clube de Xadrez de Cataguases"
-
-# Descrição do site
-description: "Bem-vindo ao Clube de Xadrez de Cataguases, onde amantes do xadrez se encontram."
-
-# URL do site
-url: "https://clubexadrezcataguases.github.io"
-
-# Plugins
+theme: minima
 plugins:
   - jekyll-sitemap
-
-# Outras configurações
-theme: minima # ou o tema que você estiver usando
