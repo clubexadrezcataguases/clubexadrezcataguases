@@ -1,6 +1,7 @@
 # Clube de Xadrez de Cataguases
 
 ## Projeto
+[![Discord](https://img.shields.io/discord/1279484132359012362?color=5865F2&label=Discord&logo=discord&logoColor=white)](https://discord.gg/JAejmvmBGa)
 
 Este documento fornece uma visão geral e documentação para o site do Clube de Xadrez Cataguases, hospedado no GitHub Pages. O site tem como objetivo promover o xadrez na cidade de Cataguases e arredores, oferecendo informações sobre o clube, eventos e recursos para os membros.
 
@@ -115,17 +116,10 @@ cd clubexadrezcataguases.github.io
 
 Para mais informações ou para se juntar ao clube, entre em contato através do formulário no site ou pelo e-mail: [clubexadrezcataguases@gmail.com](mailto:clubexadrezcataguases@gmail.com)
 
-## Redes Sociais
-
-- Facebook: [Clube de Xadrez Cataguases](https://www.facebook.com/clubexadrezcataguases)
-- Instagram: [@clubexadrezcataguases](https://www.instagram.com/clubexadrezcataguases)
-
 ## Licença
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" alt="Ícone de Domínio Público" width="50"/>
 Este projeto está licenciado sob The Unlicense. Isso significa que o projeto é de domínio público, e você pode fazer o que quiser com ele, sem nenhuma restrição. Para mais detalhes, consulte o arquivo LICENSE ou visite [https://unlicense.org/](https://unlicense.org/).
 
 ## Agradecimentos
 
 Agradecemos a todos os membros e apoiadores do Clube de Xadrez Cataguases que tornaram este projeto possível.
-
-<!— algumas informações aqui poderão e serão modificadas futuramente. —>
