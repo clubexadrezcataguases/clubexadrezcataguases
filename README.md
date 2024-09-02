@@ -1,7 +1,8 @@
 # Clube de Xadrez de Cataguases
 
-## Projeto
 [![Discord](https://img.shields.io/discord/1279484132359012362?color=5865F2&label=Discord&logo=discord&logoColor=white)](https://discord.gg/JAejmvmBGa)
+
+## Projeto
 
 Este documento fornece uma visão geral e documentação para o site do Clube de Xadrez Cataguases, hospedado no GitHub Pages. O site tem como objetivo promover o xadrez na cidade de Cataguases e arredores, oferecendo informações sobre o clube, eventos e recursos para os membros.
 
