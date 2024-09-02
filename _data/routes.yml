@@ -1,0 +1,11 @@
+menu:
+  - name: "Home"
+    url: "/"
+  - name: "Sobre"
+    url: "/sobre/"
+  - name: "Blog"
+    url: "/blog/"
+  - name: "Contato"
+    url: "/contato/"
+  - name: "Convite"
+    url: "/convite"
