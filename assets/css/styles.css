@@ -111,20 +111,24 @@ body {
 }
 
 main {
-            padding: 20px;
-            width: 80%;
-            max-width: 800px;
-            background-color: #fff;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    padding: 15px;
+    width: 80%;
+    max-width: 950px;
+    margin: 25px 10;
+    border-radius: 10px;
+    background-image: url('https://images.unsplash.com/photo-1462717585237-7fafe19c5448?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white !important;
+}
 .footer {
-  display: flex;
-  align-items: center; /* Alinha a imagem e o texto verticalmente */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  padding: 10px;
-  background-color: #f8f8f8; /* Cor de fundo opcional */
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 10px;
+    background-color: #f8f8f8; /* Cor de fundo opcional */
 }
 
 .footer-link {
