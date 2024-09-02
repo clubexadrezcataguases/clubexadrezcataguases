@@ -122,4 +122,4 @@ Agradecemos a todos os membros e apoiadores do Clube de Xadrez Cataguases que to
 
 ## Licença
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" alt="Ícone de Domínio Público" width="50"/>
-Este projeto está licenciado sob The Unlicense. Isso significa que o projeto é de domínio público, e você pode fazer o que quiser com ele, sem nenhuma restrição. Para mais detalhes, consulte o arquivo LICENSE ou visite [https://unlicense.org/](https://unlicense.org/).
+Este projeto está licenciado sob The Unlicense. Isso significa que o projeto é de domínio público, e você pode fazer o que quiser com ele, sem nenhuma restrição. Para mais detalhes, consulte o arquivo LICENSE ou visite https://unlicense.org/.
