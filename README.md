@@ -116,10 +116,10 @@ cd clubexadrezcataguases.github.io
 
 Para mais informações ou para se juntar ao clube, entre em contato através do formulário no site ou pelo e-mail: [clubexadrezcataguases@gmail.com](mailto:clubexadrezcataguases@gmail.com)
 
+## Agradecimentos
+
+Agradecemos a todos os membros e apoiadores do Clube de Xadrez Cataguases que tornaram este projeto possível e também as pessoas que contribuíram com o projeto.
+
 ## Licença
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/62/PD-icon.svg" alt="Ícone de Domínio Público" width="50"/>
 Este projeto está licenciado sob The Unlicense. Isso significa que o projeto é de domínio público, e você pode fazer o que quiser com ele, sem nenhuma restrição. Para mais detalhes, consulte o arquivo LICENSE ou visite [https://unlicense.org/](https://unlicense.org/).
-
-## Agradecimentos
-
-Agradecemos a todos os membros e apoiadores do Clube de Xadrez Cataguases que tornaram este projeto possível.
