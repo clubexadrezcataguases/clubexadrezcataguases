@@ -190,3 +190,11 @@ body::-webkit-scrollbar-thumb:hover {
 .menu .submenu::-webkit-scrollbar-thumb:hover {
     background-color: #88C0D0; /* cor do polegar ao passar o mouse */
 }
+ /* Estilos básicos para o aviso */
+#offline-notification {
+    display: none;
+    color: red;
+    background-color: #fff3cd;
+    padding: 10px;
+    text-align: center;
+    }
