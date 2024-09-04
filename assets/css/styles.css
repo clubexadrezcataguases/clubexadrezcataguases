@@ -126,18 +126,18 @@ main {
 }
 .footer {
     display: flex;
-    align-items: center; /* Alinha a imagem e o texto verticalmente */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; 
+    justify-content: center;
     padding: 10px;
-    background-color: #f8f8f8; /* Cor de fundo opcional */
+    background-color: #f8f8f8;
 }
 
 .footer-link {
   text-decoration: none;
-  color: #333; /* Cor do texto */
-  font-size: 16px; /* Tamanho do texto */
+  color: white;
+  font-size: 16px;
   display: flex;
-  align-items: center; /* Alinha a imagem e o texto verticalmente */
+  align-items: center;
 }
 
 .footer-logo {
@@ -197,4 +197,14 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #fff3cd;
     padding: 10px;
     text-align: center;
+border-left: 2px solid #e50914;
+font-size: 1rem; /* Ajuste do tamanho da fonte para telas grandes */
+font-weight: 100;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: .1em;
+line-height: 2.2em;
+padding-left: 2vw;
+padding-right: 1vw;
+display: block;
+margin-top: 1rem;
     }
