@@ -38,7 +38,12 @@ OTHER DEALINGS IN THE SOFTWARE.
 For more information, please refer to <https://unlicense.org>
 -->
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html
+  xmlns="http://www.w3.org/1999/xhtml"
+  xml:lang="pt-BR"
+  lang="pt-BR"
+  xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#"
+  data-color-mode="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,7 +75,11 @@ For more information, please refer to <https://unlicense.org>
             <img src="assets/images/pawn256.png" alt="peão verde logo footer" class="footer-logo">
            CXC - Clube de Xadrez de Cataguases
         </a>
+        <div id="offline-notice" style="display: none; color: red; text-align: center;">
+        Você está offline e usando uma versão instalada deste <strong>PWA</strong>.
+        </div>
     </footer>
     <script src="/js/sw-register.js"></script>
+    <script src="/js/status.js"></script>
 </body>
 </html>
