@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Você está Offline">
     <meta property="og:description" content="Você está Offline">
-    <meta property="og:url" content="https://example.com/pagina">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="CXC - Clube de Xadrez de Cataguases">
     <meta name="application-name" content="CXC">
@@ -14,13 +13,25 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
   <title>Você está Offline</title>
+  <style>
+
+    html, body {
+      background-color: black !important;
+    }
+    
+    main {
+      color: white !important;
+    }
+    
+  </style>
 </head>
 <body>
-  <div class="container">
-    <img src="https://clubexadrezcataguases.github.io/assets/images/pawn256.png" alt="Logo do Clube de Xadrez" width="35%" height="auto">
+  <main>
+    <img src="/assets/images/pawn256.png" alt="Logo do Clube de Xadrez" width="35%" height="auto">
     <h1>Você está Offline</h1>
     <p>Não foi possível carregar o conteúdo porque você está desconectado da internet.</p>
-    <button onclick="window.location.reload();">Tentar Novamente</button>
-  </div>
+    <a href="#" onclick="window.location.reload(); return false;" class="button" title="Tentar Novamente">Tentar Novamente</a>
+    <a href="/" class="button-home" title="Página Inicial">Página Inicial</a>
+  </main>
 </body>
 </html>
