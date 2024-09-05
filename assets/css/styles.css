@@ -61,7 +61,7 @@ body {
             align-items: center;
         }
 .site-header {
-  background-color: #2E3440; 
+  background-color: #2E3440;
   color: #D8DEE9;
   padding: 15px;
   display: flex;
@@ -125,6 +125,7 @@ main {
     background-color:rgba(51, 51, 51, 0.7)!important;
 }
 .footer {
+    flex-direction: column;
     display: flex;
     align-items: center; 
     justify-content: center;
