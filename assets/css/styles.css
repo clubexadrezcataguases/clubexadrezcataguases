@@ -53,7 +53,8 @@ body {
             flex-direction: column;
             align-items: center;
         }
-        .header {
+
+        .head {
             background-color: #2E3440;
             color: #D8DEE9;
             padding: 20px 40px;
@@ -65,17 +66,17 @@ body {
             box-sizing: border-box;
         }
 
-        .logo {
+        .head-logo {
             display: flex;
             align-items: center;
         }
 
-        .header-logo-image {
+        .logo-image {
             height: 50px; 
             margin-right: 15px;
         }
 
-        .header-name {
+        .head-name {
             font-size: 2rem;
             font-weight: bold;
             color: #D8DEE9;
