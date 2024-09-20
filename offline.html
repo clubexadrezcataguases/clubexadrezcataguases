@@ -16,20 +16,36 @@
   <title>Você está Offline</title>
   <style>
 
-    html, body {
+    body {
       background-color: black !important;
     }
     
     main {
       color: white !important;
     }
+        /*  icon wifi-off  */
+    
+            .wifi-off-icon {
+            display: inline-block;
+            cursor: pointer;
+            font-size: 24px; /* Tamanho do ícone */
+            color: #FFFFFF; /* Cor do ícone */
+            background-color: #333; /* Cor de fundo */
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .wifi-off-icon::before {
+            content: 'wifi_off'; /* Nome do ícone */
+            font-family: 'Material Icons'; /* Fonte da biblioteca de ícones */
+        }
     
   </style>
 </head>
 <body>
   <main>
     <img src="/assets/images/pawn256.png" alt="Logo do Clube de Xadrez" width="15%" height="auto">
-    <h1>Você está Offline</h1>
+    <h1>Você está Offline <span class="wifi-off-icon"></span></h1>
     <p>Não foi possível carregar o conteúdo porque você está desconectado da internet.</p>
     <a href="#" onclick="window.location.reload(); return false;" class="button" title="Tentar Novamente">Tentar Novamente</a>
     <a href="/" class="button-home" title="Página Inicial">Página Inicial</a>
