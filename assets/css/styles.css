@@ -123,6 +123,23 @@ body {
             font-size: 1rem;
             outline: none;
 }
+        /* icone menu */
+     /* icones do google */
+
+    .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 24px; /* Tamanho do ícone */
+    color: #FFFFFF; /* Cor do ícone */
+    background-color: #333; /* Cor de fundo */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-icon::before {
+    content: 'menu'; /* Nome do ícone */
+    font-family: 'Material Icons'; /* Fonte da biblioteca de ícones */
+}
 
 main {
     padding: 15px;
@@ -178,7 +195,7 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-thumb:hover {
     background-color: #8FBCBB; /* cor do polegar ao passar o mouse */
 }
-
+ 
 /* scrollbar para menus com a classe .menu .submenu */
 .menu .submenu {
     scrollbar-width: thin; /* para Firefox: largura fina */
@@ -201,6 +218,7 @@ body::-webkit-scrollbar-thumb:hover {
 .menu .submenu::-webkit-scrollbar-thumb:hover {
     background-color: #88C0D0; /* cor do polegar ao passar o mouse */
 }
+
  /* estilos para o aviso */
 #offline-notification {
     display: none;
@@ -208,16 +226,16 @@ body::-webkit-scrollbar-thumb:hover {
     background-color: #fff3cd;
     padding: 10px;
     text-align: center;
-border-left: 2px solid #e50914;
-font-size: 1rem; /* Ajuste do tamanho da fonte para telas grandes */
-font-weight: 100;
-font-family: Arial, Helvetica, sans-serif;
-letter-spacing: .1em;
-line-height: 2.2em;
-padding-left: 2vw;
-padding-right: 1vw;
-display: block;
-margin-top: 1rem;
+    border-left: 2px solid #e50914;
+    font-size: 1rem; /* Ajuste do tamanho da fonte para telas grandes */
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1em;
+    line-height: 2.2em;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    display: block;
+    margin-top: 1rem;
     }
 
 /* botões (suas perspectivas classes define suas funcioonabilidades)*/
