@@ -102,20 +102,27 @@ body {
             font-size: 1rem;
         }
 
-        .search-button {
-            padding: 10px 15px;
-            border: 1px solid #4C566A; 
-            border-radius: 0 4px 4px 0;
-            background-color: #4C566A;
-            color: #D8DEE9;
-            cursor: pointer;
-            font-size: 1rem;
-            outline: none;
-        }
-
+    /* botão de busca (.search-button) gerado pelo google */
         .search-button:hover {
             background-color: #5E81AC;
         }
+
+        .search-button::before {
+            font-family: 'Material Icons';
+            content: 'search'; /* nome do ícone de busca */
+            font-size: 24px;
+            display: inline-block;
+            vertical-align: middle;
+}
+
+        .search-button {
+            padding: 8px;
+            background-color: #f0f0f0;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+            outline: none;
+}
 
 main {
     padding: 15px;
@@ -144,9 +151,9 @@ main {
 }
 
 .footer-logo {
-  margin-right: 8px; /* Espaçamento entre a imagem e o texto */
-  height: 24px; /* Altura da imagem */
-  width: auto; /* Mantém a proporção da imagem */
+  margin-right: 8px; /* espaçamento entre a imagem e o texto */
+  height: 24px; /* altura da imagem */
+  width: auto; /* mantém a proporção da imagem */
 }
 
 /* scrollbar para o body (site padrão) */
