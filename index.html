@@ -70,14 +70,11 @@ background-attachment: fixed;
 /* filter: blur(15px); borrão na imagem de fundo*/
 }
 
-    .whatsapp-button {
+.whatsapp-button {
   position: fixed;
   bottom: 20px; 
   right: 20px; 
   z-index: 1000;
-  padding: 7px 100px 7px 8px !important;
-  border-radius: 100px 0 0 100px !important;
-  background-color: rgba(0, 174, 44, 0.76);
   cursor: pointer;
   transition: transform 0.25s ease;
 }
@@ -86,19 +83,20 @@ background-attachment: fixed;
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  position: relative; /* Isso permite que o ::after seja posicionado em relação ao ícone */
 }
 
-.whatsapp-button::after {
+.whatsapp-button img::after {
   content: '';
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -5px;  /* Ajusta a posição para ficar sobre o ícone */
+  right: -5px; /* Ajusta a posição para ficar sobre o ícone */
   width: 15px;
   height: 15px;
-  background-color: #00ff00;
+  background-color: #00ff00; /* Cor verde */
   border-radius: 50%;
-  z-index: 9999;
-  animation: pulse 1s infinite ease-in-out;
+  z-index: 1;
+  animation: pulse 1s infinite ease-in-out; /* Animação de pulsar */
 }
 
 @keyframes pulse {
