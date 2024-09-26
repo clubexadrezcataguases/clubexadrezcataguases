@@ -48,9 +48,9 @@ For more information, please refer to <https://unlicense.org>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="CXC - Clube de Xadrez de Cataguases">
-    <meta property="og:description" content="null">
-    <meta property="og:image" content="https://example.com/imagem.jpg">
-    <meta property="og:url" content="https://example.com/pagina">
+    <meta property="og:description" content="Explore o Clube de Xadrez de Cataguases e participe de torneios, eventos e desafios online. Junte-se à nossa comunidade de jogadores e desenvolva suas habilidades no xadrez!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1523875194681-bedd468c58bf?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+    <meta property="og:url" content="clubexadrezcataguases.github.io">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content=" CXC - Clube de Xadrez de Cataguases">
     <meta property="og:locale" content="pt_BR">
@@ -68,6 +68,52 @@ background-position: center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 /* filter: blur(15px); borrão na imagem de fundo*/
+}
+
+    .whatsapp-button {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  z-index: 1000;
+  padding: 7px 100px 7px 8px !important;
+  border-radius: 100px 0 0 100px !important;
+  background-color: rgba(0, 174, 44, 0.76);
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.whatsapp-button img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.whatsapp-button::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 15px;
+  height: 15px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  z-index: 9999;
+  animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
     </style>
 </head>
@@ -108,7 +154,11 @@ background-attachment: fixed;
         Você está offline e usando uma versão instalada deste <strong>PWA</strong>.
         </div>
     </footer>
+    <a href="https://api.whatsapp.com/send?phone=00000000000" target="_blank" class="whatsapp-button">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" width="50" height="50">
+    </a>
     <script src="/js/sw-register.js"></script>
     <script src="/js/status.js"></script>
+    <script src="/js/disable-rmb.js"></script>
 </body>
 </html>
